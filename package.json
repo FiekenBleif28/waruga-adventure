@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "server": "node src/page.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "framer-motion": "^12.23.25",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.555.0",
+    "mongoose": "^9.0.1",
     "next": "16.0.7",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
